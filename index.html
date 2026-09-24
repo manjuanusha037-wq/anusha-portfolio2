@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anusha V | ECE Student Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio of Anusha V, an Electronics and Communication Engineering student interested in Embedded Systems, IoT and Web Development.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Anusha<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-btn" onclick="toggleMenu()">
+                ☰
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">HELLO, I'M</p>
+
+            <h1>
+                Anusha <span>V</span>
+            </h1>
+
+            <h2>
+                Electronics & Communication Engineering Student
+            </h2>
+
+            <p class="hero-description">
+                Passionate about Embedded Systems, IoT, Edge AI and
+                Web Development. I enjoy learning new technologies
+                and building practical projects.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Projects
+                </a>
+
+                <a href="Anusha_V_Resume.pdf"
+                   class="btn secondary-btn"
+                   download>
+                    Download Resume
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p>ABOUT ME</p>
+
+            <h2>Who I Am</h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <p>
+                    I am a final-year Electronics and Communication
+                    Engineering student at Vijaya Vittala Institute
+                    of Technology.
+                </p>
+
+                <p>
+                    I am interested in Embedded Systems, Microcontrollers,
+                    IoT, Edge AI and software development. I am currently
+                    improving my programming and web development skills
+                    through hands-on projects.
+                </p>
+
+                <p>
+                    I believe in learning by building practical projects
+                    and continuously improving my technical skills.
+                </p>
+
+            </div>
+
+            <div class="about-info">
+
+                <div class="info-card">
+                    <strong>Degree</strong>
+                    <span>B.Tech / B.E. ECE</span>
+                </div>
+
+                <div class="info-card">
+                    <strong>CGPA</strong>
+                    <span>7.42</span>
+                </div>
+
+                <div class="info-card">
+                    <strong>Interest</strong>
+                    <span>Embedded Systems</span>
+                </div>
+
+                <div class="info-card">
+                    <strong>Location</strong>
+                    <span>Bengaluru, Karnataka</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-title">
+
+            <p>MY SKILLS</p>
+
+            <h2>Technical Skills</h2>
+
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <div class="skill-icon">C</div>
+                <h3>C Programming</h3>
+                <p>Basic programming and problem solving</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">EC</div>
+                <h3>Embedded C</h3>
+                <p>Basic embedded programming concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">MC</div>
+                <h3>Microcontrollers</h3>
+                <p>ESP32 and Arduino</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">IoT</div>
+                <h3>IoT</h3>
+                <p>Sensors, Wi-Fi and IoT applications</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">SV</div>
+                <h3>Verilog / SystemVerilog</h3>
+                <p>Basic digital design and RTL concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">WEB</div>
+                <h3>Web Development</h3>
+                <p>HTML, CSS and JavaScript</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">MAT</div>
+                <h3>MATLAB</h3>
+                <p>Basic MATLAB and Simulink concepts</p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">GH</div>
+                <h3>Git & GitHub</h3>
+                <p>Basic version control and repositories</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+
+            <p>MY WORK</p>
+
+            <h2>Projects</h2>
+
+        </div>
+
+        <div class="projects-container">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>
+                    IoT-Based Real-Time Landslide and Flood Detection System
+                </h3>
+
+                <p>
+                    An IoT-based monitoring system designed to detect
+                    environmental conditions related to landslides and
+                    floods using sensors, ESP32 and real-time monitoring.
+                </p>
+
+                <div class="project-tags">
+                    <span>ESP32</span>
+                    <span>IoT</span>
+                    <span>Sensors</span>
+                    <span>Edge AI</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/YOUR-GITHUB-USERNAME"
+                       target="_blank"
+                       class="project-btn">
+                        GitHub
+                    </a>
+
+                    <a href="#contact"
+                       class="project-btn">
+                        Details
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>
+                    Hardware Neural Network Accelerator for Edge AI
+                </h3>
+
+                <p>
+                    A digital hardware project focused on designing a
+                    neural network accelerator architecture for Edge AI
+                    applications using SystemVerilog concepts.
+                </p>
+
+                <div class="project-tags">
+                    <span>SystemVerilog</span>
+                    <span>RTL</span>
+                    <span>Edge AI</span>
+                    <span>Digital Design</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/YOUR-GITHUB-USERNAME"
+                       target="_blank"
+                       class="project-btn">
+                        GitHub
+                    </a>
+
+                    <a href="#contact"
+                       class="project-btn">
+                        Details
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>
+                    Personal Portfolio Website
+                </h3>
+
+                <p>
+                    A responsive personal portfolio website developed
+                    using HTML, CSS and JavaScript to showcase my
+                    education, skills, projects and contact information.
+                </p>
+
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>GitHub Pages</span>
+                </div>
+
+                <div class="project-buttons">
+
+                    <a href="https://github.com/YOUR-GITHUB-USERNAME"
+                       target="_blank"
+                       class="project-btn">
+                        GitHub
+                    </a>
+
+                    <a href="https://YOUR-GITHUB-USERNAME.github.io/anusha-portfolio/"
+                       target="_blank"
+                       class="project-btn">
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section education-section">
+
+        <div class="section-title">
+
+            <p>EDUCATION</p>
+
+            <h2>My Education</h2>
+
+        </div>
+
+        <div class="education-card">
+
+            <div class="education-year">
+                2023 - 2027
+            </div>
+
+            <div class="education-content">
+
+                <h3>
+                    Electronics and Communication Engineering
+                </h3>
+
+                <h4>
+                    Vijaya Vittala Institute of Technology
+                </h4>
+
+                <p>
+                    Bachelor of Engineering / Technology in
+                    Electronics and Communication Engineering.
+                </p>
+
+                <span class="cgpa">
+                    CGPA: 7.42
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RESUME ================= -->
+
+    <section class="resume-section">
+
+        <div>
+
+            <p>LOOKING FOR OPPORTUNITIES</p>
+
+            <h2>
+                Let's connect and build something useful.
+            </h2>
+
+        </div>
+
+        <a href="Anusha_V_Resume.pdf"
+           class="btn resume-btn"
+           download>
+            Download Resume
+        </a>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-title">
+
+            <p>GET IN TOUCH</p>
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>
+                    Let's Connect
+                </h3>
+
+                <p>
+                    I am open to learning opportunities, internships,
+                    projects and professional connections.
+                </p>
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:YOUR-EMAIL@example.com"
+                   class="contact-item">
+
+                    <span class="contact-icon">
+                        ✉
+                    </span>
+
+                    <div>
+                        <strong>Email</strong>
+                        <p>YOUR-EMAIL@example.com</p>
+                    </div>
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/YOUR-GITHUB-USERNAME"
+                   target="_blank"
+                   class="contact-item">
+
+                    <span class="contact-icon">
+                        Git
+                    </span>
+
+                    <div>
+                        <strong>GitHub</strong>
+                        <p>github.com/YOUR-GITHUB-USERNAME</p>
+                    </div>
+
+                </a>
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+                   target="_blank"
+                   class="contact-item">
+
+                    <span class="contact-icon">
+                        in
+                    </span>
+
+                    <div>
+                        <strong>LinkedIn</strong>
+                        <p>linkedin.com/in/YOUR-LINKEDIN-USERNAME</p>
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+
+            <form class="contact-form"
+                  onsubmit="sendMessage(event)">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+
+                <button
+                    type="submit"
+                    class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>Anusha<span>.</span></h3>
+
+            <p>
+                Electronics & Communication Engineering Student
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/YOUR-GITHUB-USERNAME"
+                   target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:YOUR-EMAIL@example.com">
+                    Email
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Anusha V. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
